@@ -1,9 +1,11 @@
 package Obiecte;
 
 public class Gaina extends Pasare implements Abilitate {
+    
+    public static final VITEZA_ZBOR = 0;
 
-    public Gaina(int varsta, String nume, MEDIU mediu, int viteza_zbor) {
-        super(varsta, nume, mediu, viteza_zbor);
+    public Gaina(int varsta, String nume, MEDIU mediu) {
+        super(varsta, nume, mediu, Gaina.VITEZA_ZBOR);
     }
 
     @Override
